@@ -10,7 +10,8 @@ Jingwei Huang, Yanfeng Zhang, Mingwei Sun. [**PrimitiveNet: Primitive Instance S
 ```
 git submodule update --init --recursive
 conda create -n PrimNet python=3.7 pip -y
-pip install pyyaml
+pip install pyyaml==5.1
+pip install scipy lapsolver psutil
 pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu111/torch_stable.html
 sudo apt install libboost-dev libsparsehash-dev
 sh scripts/compile.sh
