@@ -3,5 +3,5 @@
 #extract data.zip into data folder
 
 mkdir checkpoints
-mv data/ABC/abc.pth checkpoints/
-mv data/scene/scene.pth checkpoints/
+cp data/abc-pretrained.pth checkpoints/abc.pth
+cp data/scene.pth checkpoints/
