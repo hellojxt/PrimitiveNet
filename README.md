@@ -9,6 +9,9 @@ Jingwei Huang, Yanfeng Zhang, Mingwei Sun. [**PrimitiveNet: Primitive Instance S
 ## Compile
 ```
 git submodule update --init --recursive
+conda create -n PrimNet python=3.7 pip -y
+pip install 
+sudo apt install libboost-dev libsparsehash-dev
 sh scripts/compile.sh
 ```
 
